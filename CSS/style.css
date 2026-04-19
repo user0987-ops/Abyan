@@ -47,7 +47,8 @@ header {
     letter-spacing: 0.1em;
     color: var(--accent-color);
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase;  ←これを削除するか、以下のように変更します */
+    text-transform: none; 
 }
 
 /* ナビゲーション */
