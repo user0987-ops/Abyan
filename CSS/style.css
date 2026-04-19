@@ -115,9 +115,3 @@ footer {
     align-items: center;
     gap: 10px;
 }
-
-/* スマホ対応 */
-@media (max-width: 768px) {
-    nav { display: none; } /* 簡易化のためスマホではナビを隠すかハンバーガーへ */
-    .logo { font-size: 1.4rem; }
-}
