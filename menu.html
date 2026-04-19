@@ -6,26 +6,19 @@
     <title>Menu | Abyan</title>
     <link rel="stylesheet" href="CSS/style.css">
     <style>
-        /* メニューページ専用のスタイル */
         .menu-list { max-width: 900px; margin: 20px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .menu-category { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
         .menu-category:last-child { border-bottom: none; }
         .menu-category-title { font-size: 1.4rem; color: var(--accent-color); font-weight: bold; text-align: center; margin-bottom: 25px; letter-spacing: 0.1em; }
-        
         .menu-sub-category { margin-bottom: 20px; }
         .menu-sub-title { font-size: 1rem; font-weight: bold; color: #555; border-left: 4px solid var(--accent-color); padding-left: 10px; margin-bottom: 10px; margin-top: 15px; }
         .menu-desc { font-size: 0.85rem; color: #777; margin-top: -5px; margin-bottom: 10px; padding-left: 14px; }
-        
         .menu-item { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px dotted #ccc; padding: 8px 0; }
         .menu-name { flex: 1; padding-right: 15px; }
         .menu-price { font-weight: bold; color: var(--text-color); white-space: nowrap; }
-        
-        /* オプション・注釈用 */
         .option-box { background-color: #fdfaf8; padding: 15px; border-radius: 4px; margin-top: 15px; }
         .option-header { text-align: center; font-weight: bold; color: #666; font-size: 0.9rem; margin-bottom: 10px; }
         .menu-note { font-size: 0.8rem; color: #888; text-align: center; margin-top: 15px; line-height: 1.6; }
-        
-        /* パーツ別メニュー用（脱毛など） */
         .parts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; }
         @media (max-width: 600px) { .parts-grid { grid-template-columns: 1fr; } }
     </style>
@@ -64,10 +57,6 @@
                         <div class="menu-item"><span class="menu-name">・毛穴ケア</span><span class="menu-price">¥1,800</span></div>
                         <div class="menu-item"><span class="menu-name">・リボーニング</span><span class="menu-price">¥1,800</span></div>
                         <div class="menu-item"><span class="menu-name">・フォト</span><span class="menu-price">¥2,000</span></div>
-                        <div class="menu-item"><span class="menu-name">・イオン導入</span><span class="menu-price">¥1,000</span></div>
-                        <div class="menu-item"><span class="menu-name">・CO2炭酸パック</span><span class="menu-price">¥1,000</span></div>
-                        <div class="menu-item"><span class="menu-name">・クチャパック</span><span class="menu-price">¥1,000</span></div>
-                        <div class="menu-item"><span class="menu-name">・クールグリーンパック</span><span class="menu-price">¥1,000</span></div>
                         <div class="menu-item"><span class="menu-name">・エクストラクション</span><span class="menu-price">¥3,000</span></div>
                         <div class="menu-item"><span class="menu-name">・ディープレンジング</span><span class="menu-price">¥1,000</span></div>
                         <div class="menu-item"><span class="menu-name">・肌別スペシャルパック</span><span class="menu-price">¥1,000〜</span></div>
@@ -86,10 +75,10 @@
                     </div>
 
                     <div class="menu-sub-category">
-                        <div class="menu-sub-title">オイル・リンパ</span></div>
+                        <div class="menu-sub-title">オイル・リンパ</div>
                         <div class="menu-item"><span class="menu-name">30分</span><span class="menu-price">¥3,000</span></div>
                         <div class="menu-item"><span class="menu-name">90分</span><span class="menu-price">¥8,000</span></div>
-                        <div class="menu-item"><span class="menu-name">150分</span><span class="menu-price">¥14,000</span></div>
+                        <div class="menu-item"><span class="menu-name">120分</span><span class="menu-price">¥13,000</span></div>
                     </div>
 
                     <div class="menu-sub-category">
@@ -97,9 +86,6 @@
                         <div class="menu-desc">（キャビテーション＋ラジオ波＋EMS）</div>
                         <div class="menu-item"><span class="menu-name">30分</span><span class="menu-price">¥3,000</span></div>
                         <div class="menu-item"><span class="menu-name">60分</span><span class="menu-price">¥5,800</span></div>
-                        <div class="menu-item"><span class="menu-name">4回コース</span><span class="menu-price">¥22,000</span></div>
-                        <div class="menu-item"><span class="menu-name">8回コース</span><span class="menu-price">¥40,000</span></div>
-                        <div class="menu-item"><span class="menu-name">12回コース</span><span class="menu-price">¥59,000</span></div>
                     </div>
                     
                     <div class="menu-note">※各コース30分は部分集中（背中・お腹・足）の施術をおすすめします</div>
@@ -116,28 +102,26 @@
                     
                     <div class="menu-sub-category">
                         <div class="menu-sub-title">まつげパーマ</div>
-                        <div class="menu-item"><span class="menu-name">通常</span><span class="menu-price">¥1,800</span></div>
-                        <div class="menu-item"><span class="menu-name">学割</span><span class="menu-price">¥1,000</span></div>
+                        <div class="menu-item"><span class="menu-name">通常</span><span class="menu-price">¥2,500</span></div>
                     </div>
 
                     <div class="menu-sub-category">
                         <div class="menu-sub-title">まつげエクステ・シングルラッシュ</div>
                         <div class="menu-item"><span class="menu-name">つけ放題</span><span class="menu-price">¥4,000</span></div>
-                        <div class="menu-item"><span class="menu-name">リペア（付け足し/お直し） 2週間以内</span><span class="menu-price">¥2,000</span></div>
-                        <div class="menu-item"><span class="menu-name">リペア（付け足し/お直し） 1ヶ月以内</span><span class="menu-price">¥3,000</span></div>
+                        <div class="menu-item"><span class="menu-name">リペア 2週間以内</span><span class="menu-price">¥2,000</span></div>
+                        <div class="menu-item"><span class="menu-name">リペア 1ヶ月以内</span><span class="menu-price">¥3,000</span></div>
                     </div>
 
                     <div class="menu-sub-category">
                         <div class="menu-sub-title">まつげエクステ・ボリュームラッシュ</div>
                         <div class="menu-item"><span class="menu-name">つけ放題</span><span class="menu-price">¥6,000</span></div>
-                        <div class="menu-item"><span class="menu-name">リペア（付け足し/お直し） 2週間以内</span><span class="menu-price">¥3,000</span></div>
-                        <div class="menu-item"><span class="menu-name">リペア（付け足し/お直し） 1ヶ月以内</span><span class="menu-price">¥4,500</span></div>
+                        <div class="menu-item"><span class="menu-name">リペア 2週間以内</span><span class="menu-price">¥3,000</span></div>
+                        <div class="menu-item"><span class="menu-name">リペア 1ヶ月以内</span><span class="menu-price">¥5,000</span></div>
                     </div>
 
                     <div class="menu-sub-category">
                         <div class="menu-sub-title">まつげエクステOFF</div>
-                        <div class="menu-item"><span class="menu-name">他店施術</span><span class="menu-price">¥1,000</span></div>
-                        <div class="menu-item"><span class="menu-name">当店施術</span><span class="menu-price">無料</span></div>
+                        <div class="menu-item"><span class="menu-name">OFFのみ</span><span class="menu-price">¥1,000</span></div>
                     </div>
                 </div>
 
@@ -145,7 +129,7 @@
                     <div class="menu-category-title">ネイル</div>
                     <div class="menu-item"><span class="menu-name">ハンド/フット（ジェル）</span><span class="menu-price">¥2,500</span></div>
                     <div class="menu-item"><span class="menu-name">ハンド/フット（ケア）</span><span class="menu-price">¥2,000</span></div>
-                    <div class="menu-item"><span class="menu-name">OFF（他店）</span><span class="menu-price">¥1,000</span></div>
+                    <div class="menu-item"><span class="menu-name">OFF</span><span class="menu-price">¥1,000</span></div>
                 </div>
 
                 <div class="menu-category">
@@ -159,12 +143,12 @@
                     <div class="menu-sub-title">PARTS（体）</div>
                     <div class="parts-grid">
                         <div class="menu-item"><span class="menu-name">ワキ</span><span class="menu-price">¥1,000</span></div>
-                        <div class="menu-item"><span class="menu-name">腕＋（ひじ/ワキ/甲指 どちらか1つ込）</span><span class="menu-price">¥5,000</span></div>
+                        <div class="menu-item"><span class="menu-name">腕＋（ひじ/ワキ/甲指 どちらか込）</span><span class="menu-price">¥5,000</span></div>
                         <div class="menu-item"><span class="menu-name">ひじ下</span><span class="menu-price">¥2,000</span></div>
                         <div class="menu-item"><span class="menu-name">ひじ上</span><span class="menu-price">¥3,000</span></div>
                         <div class="menu-item"><span class="menu-name">ひじ</span><span class="menu-price">¥1,000</span></div>
                         <div class="menu-item"><span class="menu-name">手の甲／指</span><span class="menu-price">¥500</span></div>
-                        <div class="menu-item"><span class="menu-name">足（ひざ/甲指 どちらか1つ込）</span><span class="menu-price">¥7,500</span></div>
+                        <div class="menu-item"><span class="menu-name">足（ひざ/甲指 どちらか込）</span><span class="menu-price">¥7,500</span></div>
                         <div class="menu-item"><span class="menu-name">ひざ上</span><span class="menu-price">¥4,000</span></div>
                         <div class="menu-item"><span class="menu-name">ひざ下</span><span class="menu-price">¥3,000</span></div>
                         <div class="menu-item"><span class="menu-name">ひざ</span><span class="menu-price">¥1,000</span></div>
